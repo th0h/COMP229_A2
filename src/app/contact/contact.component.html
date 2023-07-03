@@ -1,0 +1,44 @@
+<section class="contact">
+    <div><h1><b>Contact</b></h1></div>
+    <div>
+        <div>
+                <h2>Taehyun Oh<br>
+                Phone: 647-123-1234<br>
+                Email: taehyun.oh5@gmail.com</h2>
+
+        </div>
+    </div>
+</section>
+<mat-card class="card">
+  <mat-card-header>
+      <h1>
+          Contact Info
+      </h1>
+  </mat-card-header>
+  <mat-card-content>
+      <form class="example-form" [formGroup]="contactform" (ngSubmit)="proceedregisteration()">
+          <mat-form-field class="example-full-width">
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="name">
+          </mat-form-field>
+        
+          <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+              <mat-label>Phone Number (no '-' needed)</mat-label>
+              <input matInput formControlName="number">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Leave me a note</mat-label>
+              <input matInput formControlName="note">
+            </mat-form-field>
+            <div>
+              <button mat-raised-button color="primary" type="submit">Submit</button>
+            </div>
+        </form>
+  </mat-card-content>
+</mat-card>

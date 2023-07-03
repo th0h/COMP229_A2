@@ -1,0 +1,59 @@
+/* Taehyun Oh - 301286174 - COMP229 Sec.006 - Assignment 1 - June 9th, 2023*/
+
+@import "~bootstrap/dist/css/bootstrap.css";  
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+    padding: 0; 
+    font-size: 20px;}
+p{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+
+}
+.p-wrapper{
+    position: relative;   
+}
+.p-wrapper::before{
+    content: '';
+    background: rgb(238, 177, 197);
+    height: 250vh;
+    width: 25vw;
+    position: absolute;
+    z-index: -1;
+}
+.p-flex{
+    display: flex;
+}
+.p-flex-align-center{
+    align-items: center;
+}
+.p-flex-justify-sb{
+    justify-content: space-evenly;
+}
+.p-readmore{
+    color: #000;
+    font-weight: 600;
+
+}
+
+.p-readmore img{
+    transition: all .5s;
+    transform: translateX(0);
+
+
+}
+.p-readmore:hover img{
+    transform: translateX(5px);
+}

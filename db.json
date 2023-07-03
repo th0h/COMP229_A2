@@ -1,0 +1,36 @@
+{
+  "user": [
+    {
+      "name": "taehyun",
+      "id": "thth0206",
+      "password": "thth1234",
+      "isactive": false
+    },
+    {
+      "name": "Hello",
+      "id": "example",
+      "password": "thth0206",
+      "isactive": false
+    }
+  ],
+  "business": [
+    {
+      "name": "Taehyun ",
+      "email": "email@email.com",
+      "number": "67746783",
+      "id": "ddVyAZR"
+    },
+    {
+      "name": "Brian",
+      "number": "44646464",
+      "email": "brian@gmail.com",
+      "id": "3KvLVKq"
+    },
+    {
+      "name": "Aron",
+      "number": "6477851245",
+      "email": "victor@email.com",
+      "id": "jTFNSFM"
+    }
+  ]
+}
